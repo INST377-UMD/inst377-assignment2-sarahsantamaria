@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dogs</title>
+    
+    <link rel="stylesheet" href="../styles/style.css">
+    <script src="../libs/annyang.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/simple-slider"></script>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="stocks.html">Stocks</a></li>
+            <li><a href="dogs.html">Dogs</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h1>Dog Browser</h1>
+        <div id="dog-carousel" class="slider"></div>
+        <div id="breed-buttons"></div>
+        <div id="breed-info"></div>
+    </main>
+
+    <div id="audio-controls">
+        <h3>Voice Commands</h3>
+        <p>Say "Load Dog Breed Yorkshire Terrier"</p>
+        <button id="enable-audio">Turn On Audio</button>
+        <button id="disable-audio">Turn Off Audio</button>
+    </div>
+
+    <script src="scripts/dogs.js"></script>
+</body>
+</html>
