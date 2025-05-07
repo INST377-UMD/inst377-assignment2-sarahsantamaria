@@ -1,0 +1,112 @@
+/* Base Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f9fa;
+    color: #333;
+  }
+  
+  /* Navigation */
+  nav {
+    background-color: #343a40;
+    padding: 10px 0;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Main Content */
+  main {
+    padding: 30px;
+    text-align: center;
+  }
+  
+  h1, h2, h3 {
+    color: #2c3e50;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin: 10px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Quote Box on Home Page */
+  #quote-box {
+    font-size: 1.2em;
+    font-style: italic;
+    margin: 20px auto;
+    max-width: 600px;
+  }
+  
+  /* Audio Controls */
+  #audio-controls {
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  /* Stocks Page */
+  #stock-chart {
+    max-width: 700px;
+    margin: 30px auto;
+  }
+  
+  /* Reddit Stock Table */
+  #reddit-stocks {
+    margin: 20px auto;
+    border-collapse: collapse;
+    width: 80%;
+  }
+  
+  #reddit-stocks th, #reddit-stocks td {
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  /* Dogs Page */
+  .slider-img {
+    width: 150px;
+    margin: 10px;
+    border-radius: 10px;
+  }
+  
+  .breed-button {
+    margin: 5px;
+    padding: 6px 12px;
+    background-color: #eee;
+    border: 1px solid #ccc;
+    cursor: pointer;
+  }
+  
+  .breed-button:hover {
+    background-color: #ddd;
+  }
+  
